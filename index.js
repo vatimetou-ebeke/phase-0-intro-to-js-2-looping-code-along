@@ -18,10 +18,11 @@ function writeCards( names ){
     
 
 function countDown(n){
-    var k=[];
-
-   for (let i=0; i<n; i=i+n){
-       console.log(k[i]);
-   }
+    let count =n;
+    while(count>=0){
+        console.log(count--);
+        
+        
+    }
 }
 
